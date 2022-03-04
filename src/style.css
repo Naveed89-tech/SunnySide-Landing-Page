@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .hide {
+    @apply opacity-0 pointer-events-none invisible;
+  }
+  .open {
+    @apply opacity-100  pointer-events-auto visible;
+  }
+  .mob_nav {
+    @apply flex  flex-col  justify-around   gap-8 font-Barlow  py-9 mr-12 text-blue-full_grayish   absolute      w-4/5 h-2/4 top-24 right-0     bg-white   text-center transition-all duration-500;
+  }
+  .navigation {
+    @apply md:flex md:justify-end md:self-end md:items-center md:gap-12 md:font-Barlow md:text-white flex  md:flex-row  flex-col  justify-around   gap-8 font-Barlow  md:py-0 py-9 md:mr-0 mr-12 text-blue-full_grayish   md:relative absolute      md:w-full   w-4/5 md:h-full h-2/4 md:top-0 top-24 right-0    md:bg-transparent bg-white   text-center transition-all duration-500;
+  }
+
+  .btn {
+    @apply py-4 px-10 bg-white text-blue-dark_blue uppercase font-Fraunces  rounded-full cursor-pointer hover:bg-blue-hover_btn hover:text-white hover:transition-all duration-500 self-center;
+  }
+  .mob_nav_btn {
+    @apply py-4 px-10 bg-yellow-full_yellow text-blue-dark_blue uppercase font-Fraunces  rounded-full cursor-pointer hover:bg-blue-hover_btn hover:text-white hover:transition-all duration-500 self-center;
+  }
+  .gallery_transition {
+    @apply hover:cursor-pointer transform hover:-translate-y-3  transition-transform hover:duration-500;
+  }
+}
