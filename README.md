@@ -44,7 +44,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [1](https://tailwindcss.com/docs/installation) - This helped me to remembered the very useful CSS concept and how i can use them with tailwind CSS reason. I really liked this pattern and will use it going forward.
+- [https://tailwindcss.com/docs/installation](https://tailwindcss.com/docs/installation) - This helped me to remembered the very useful CSS concept and how i can use them with tailwind CSS reason. I really liked this pattern and will use it going forward.
 
 ## Author
 
